@@ -1,12 +1,16 @@
 /* eslint-disable no-unused-vars */
-import React from 'react';
-
-const Contact=()=>{
-    return(
-        <div>
-            Contact
-        </div>
-        )
-}
+import React from "react";
+import PageHeaderContent from "../../components/pageHeaderContent";
+import { BsInfoCircleFill } from "react-icons/bs";
+const Contact = () => {
+  return (
+    <section id="portfolio" className="portfolio">
+      <PageHeaderContent
+        headerText="Contact Me"
+        icon={<BsInfoCircleFill size={40} />}
+      />
+    </section>
+  );
+};
 
 export default Contact;
