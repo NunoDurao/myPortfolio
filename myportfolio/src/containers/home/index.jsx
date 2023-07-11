@@ -17,7 +17,7 @@ const Home = () => {
         <h1>
           Hello World! I'm Nuno Durão.
           <br />
-          Full Stack Developer
+          Full Stack Web Developer
         </h1>
       </div>
       <Animate
